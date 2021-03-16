@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/../../java-project/android_kenya_standard_lib/src/main/java/com/globalaccelerex/pos/android_standard_lib/EquityTestTransaction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../java-project/android_kenya_standard_lib/src/main/java/com/globalaccelerex/pos/android_standard_lib/bit/BitChannel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../java-project/android_kenya_standard_lib/src/main/java/com/globalaccelerex/pos/android_standard_lib/bit/BitISOProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../java-project/android_kenya_standard_lib/src/main/java/com/globalaccelerex/pos/android_standard_lib/bit/BitTransactionProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../java-project/android_kenya_standard_lib/src/main/java/com/globalaccelerex/pos/android_standard_lib/bit/SocketAsciiClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../java-project/android_kenya_standard_lib/src/main/java/com/globalaccelerex/pos/android_standard_lib/iso/core/TransactionProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../keycloak-demo/src/main/java/com/hamsoft/keycloakdemo/config/KeycloakConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../keycloak-demo/src/main/java/com/hamsoft/keycloakdemo/controller/DemoController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../keycloak-demo/src/main/java/com/hamsoft/keycloakdemo/controller/UserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../keycloak-demo/src/main/java/com/hamsoft/keycloakdemo/model/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../keycloak-demo/src/main/java/com/hamsoft/keycloakdemo/repository/UserRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../keycloak-demo/src/main/java/com/hamsoft/keycloakdemo/security/KeyCloakSecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../keycloak-demo/src/main/java/com/hamsoft/keycloakdemo/security/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../keycloak-demo/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../keycloak-springboot/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
