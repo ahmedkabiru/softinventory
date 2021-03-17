@@ -1,4 +1,4 @@
-package com.hamoft.discoveryserver;
+package com.hamsoft.discoveryserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
