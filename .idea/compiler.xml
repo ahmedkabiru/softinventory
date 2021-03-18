@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="softinventory-discovery-server" />
         <module name="softinventory-config-server" />
+        <module name="softinventory-admin-server" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="softinventory-admin-server" options="-parameters" />
       <module name="softinventory-config-server" options="-parameters" />
       <module name="softinventory-discovery-server" options="-parameters" />
     </option>
