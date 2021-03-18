@@ -61,16 +61,8 @@
         <module>softinventory-discovery-server</module>
         <module>softinventory-config-server</module>
         <module>softinventory-admin-server</module>
+        <module>softinventory-category-service</module>
     </modules>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.4.0</version>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
