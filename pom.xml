@@ -59,6 +59,7 @@
 
     <modules>
         <module>softinventory-discovery-server</module>
+        <module>softinventory-config-server</module>
     </modules>
 
 

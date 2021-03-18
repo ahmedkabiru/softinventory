@@ -1,0 +1,34 @@
+server:
+    port: 8888
+
+
+spring:
+    application:
+        name: configserver
+    profiles:
+        active: git
+
+---
+spring:
+    profiles: composite
+    cloud:
+        config:
+            server:
+                composite:
+                    - type: native
+                      search-locations: classpath:/config
+                bootstrap: true
+
+---
+spring:
+    profiles: git
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/ahmedkabiru/softinventory-configuration.git
+                    search-paths:
+                        - product-service
+                        - category-service
+                    cloneOnStart: true
+                    default-label: main
