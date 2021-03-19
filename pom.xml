@@ -62,6 +62,7 @@
         <module>softinventory-config-server</module>
         <module>softinventory-admin-server</module>
         <module>softinventory-category-service</module>
+        <module>softinventory-product-service</module>
     </modules>
 
 
