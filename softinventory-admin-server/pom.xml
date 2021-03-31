@@ -3,20 +3,25 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.hamsoft</groupId>
-		<artifactId>softinventory</artifactId>
-		<version>1.0-SNAPSHOT</version>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.4.2</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
 	<groupId>com.hamsoft</groupId>
 	<artifactId>softinventory-admin-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>AdminServer</name>
 	<description>SoftInventory Admin Server</description>
+
 	<properties>
 		<java.version>11</java.version>
+		<spring-boot.version>2.4.2</spring-boot.version>
+		<assertj.version>3.19.0</assertj.version>
+		<spring-cloud.version>2020.0.2</spring-cloud.version>
 		<spring-boot-admin.version>2.3.1</spring-boot-admin.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>de.codecentric</groupId>
@@ -42,8 +47,16 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
 			<dependency>
 				<groupId>de.codecentric</groupId>
 				<artifactId>spring-boot-admin-dependencies</artifactId>
@@ -51,8 +64,27 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-test</artifactId>
+				<version>${spring-boot.version}</version>
+				<scope>test</scope>
+				<exclusions>
+					<exclusion>
+						<groupId>org.junit.vintage</groupId>
+						<artifactId>junit-vintage-engine</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>org.assertj</groupId>
+				<artifactId>assertj-core</artifactId>
+				<version>${assertj.version}</version>
+				<scope>test</scope>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
 
 	<build>
 		<plugins>
