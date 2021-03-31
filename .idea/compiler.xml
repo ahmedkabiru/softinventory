@@ -12,6 +12,7 @@
         <module name="softinventory-config-server" />
         <module name="softinventory-category-service" />
         <module name="softinventory-product-service" />
+        <module name="softinventory-gateway-service" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +22,7 @@
       <module name="softinventory-category-service" options="-parameters" />
       <module name="softinventory-config-server" options="-parameters" />
       <module name="softinventory-discovery-server" options="-parameters" />
+      <module name="softinventory-gateway-service" options="-parameters" />
       <module name="softinventory-product-service" options="-parameters" />
     </option>
   </component>
